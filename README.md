@@ -1,4 +1,4 @@
-# EUR-US-Exchange-Rate-Data
+# EUR-US Exchange-Rate Data
 the project appears to involve web scraping historical exchange rate data from a website (x-rates.com) for a specific range of dates. The code iterates over a range of years, months, and days to construct the desired date for each iteration.
 
 For each date, a request is made to the website, and the HTML response is parsed using the Beautiful Soup library. The code attempts to find the rate element on the page and extracts the rate value if found. It then stores the date and rate in a list called results.
